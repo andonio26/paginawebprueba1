@@ -1,0 +1,53 @@
+:root {
+    --color-principal: #000000;
+    --color-fondo: #ee1d1d;
+    --color-secundario: #fd0909;
+    --color-terciario: #ffffff;
+}
+body {
+    background-image:
+}
+header {
+    text-align: center;
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    grid-area: header;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.saga {
+    width: auto;
+    height: 80px; 
+    object-fit: contain;
+    margin-right: 20px;
+}
+.ninten {
+    width:fit-content;
+    height: 80px; 
+    object-fit: contain;
+    margin-right: 20px;
+}
+nav {
+    grid-area: nav;
+    background-color: var(--color-secundario);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: var(--color-principal);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Protest Strike", sans-serif;
+    padding: 10px 0;
+}
